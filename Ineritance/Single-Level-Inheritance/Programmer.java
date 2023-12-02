@@ -5,12 +5,12 @@ public class Programmer extends Employee {
 	
 	public static void main(String[] args) throws Exception {
 
-		Programmer parentObj = new Programmer();
+		Programmer childObj = new Programmer();
 		
 		System.out.println( "\t\tSingle-Level Inheritance in  Java" );
 		
-		System.out.println( "\nBasic salary of an employee            : " + parentObj.salary );
-		System.out.println( "Bonus for the Programmer               : " + parentObj.programmerAddOnSalary );
-		System.out.println( "Total salary for a role of  Programmer : " + ( parentObj.salary + parentObj.programmerAddOnSalary ) );
+		System.out.println( "\nBasic salary of an employee            : " + childObj.salary );
+		System.out.println( "Bonus for the Programmer               : " + childObj.programmerAddOnSalary );
+		System.out.println( "Total salary for a role of  Programmer : " + ( childObj.salary + childObj.programmerAddOnSalary ) );
 	}
 }
