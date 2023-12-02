@@ -7,7 +7,7 @@ public class Programmer extends Employee {
 
 		Programmer parentObj = new Programmer();
 		
-		System.out.println( "\t\tSingle Level-Inheritance in  Java" );
+		System.out.println( "\t\tSingle-Level Inheritance in  Java" );
 		
 		System.out.println( "\nBasic salary of an employee            : " + parentObj.salary );
 		System.out.println( "Bonus for the Programmer               : " + parentObj.programmerAddOnSalary );
