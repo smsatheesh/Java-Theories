@@ -7,15 +7,15 @@
 
 
 ## Types of Exceptions: 
-	* Checked Exception (Compile-Time)
+* Checked Exception (Compile-Time)
 		
-		>>> They must be caught and handled during compile time
+	>>> They must be caught and handled during compile time
 		
-	* Un-checked Exception (Run-Time)
+* Un-checked Exception (Run-Time)
 		
-		>>> They do need to be handled explicitly, they occur at the time of execution.
-		>>> They are usually avioded by good programming pratices.
-		>>> They are caused due to programming bugs such as logic error or improper use of an API.
+	>>> They do need to be handled explicitly, they occur at the time of execution.
+	>>> They are usually avioded by good programming pratices.
+	>>> They are caused due to programming bugs such as logic error or improper use of an API.
 		
 		
 ### Contributed by [Sm Satheesh](https://github.com/smsatheesh)
