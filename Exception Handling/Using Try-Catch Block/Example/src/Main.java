@@ -20,6 +20,8 @@ public class Main {
 			
 			exp.printStackTrace();
 		}
-		
+
+		System.out.println( "After exception handling block !!" );
+
 	}
 }
