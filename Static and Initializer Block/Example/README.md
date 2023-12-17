@@ -10,4 +10,4 @@
 >>> Initializer block will be dispalyed each time as the class compiles as it will run the block as per program structure and its order.
 >>> Can access non-static content from outside the block.
 
-### Contributed by [Sm Satheesh](https://github.com/smsatheesh){:target="_blank"}
+### Contributed by [Sm Satheesh](https://github.com/smsatheesh)
