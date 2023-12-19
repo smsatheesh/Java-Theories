@@ -1,10 +1,12 @@
 public class Main{
 
+	@FunctionalInterface
 	interface function1 {
 		
 		public abstract int operation( int x, int y );
 	}
-	
+
+	@FunctionalInterface
 	interface function2 {
 		
 		public abstract void sayMessage( String message );
