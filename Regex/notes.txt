@@ -1,0 +1,19 @@
+CHARACTER CLASSES :
+
+[abc] --------- Either 'a' or 'b' or 'c'
+[^abc] -------- Neither 'a' or 'b' or 'c'
+[a-z] --------- Either any lower case letters
+[A-Z] --------- Either any upper case letters
+[a-zA-Z] ------ Any alphabet characters
+[0-9] --------- Any numeric characters
+[a-zA-Z0-9] --- Any alpha numeric characters
+
+QUANTIFIERS :
+
+a ------------- Exactly one 'a'
+a+ ------------ Atleast one 'a'
+a* ------------ Any of 'a's excluding zero number
+a? ------------ Atmost of 'a'
+X{n} ---------- Exactly n occurences of X
+X{n, } -------- Atleast n occurences of X
+X{n, m} ------- Count of occurences of X is from n to m
