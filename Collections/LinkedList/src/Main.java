@@ -16,12 +16,12 @@ public class Main {
     	arrLinkedList.add( 4, 50 );
     	
     	// Printing Elements Using Iterator
-    	System.out.print( "Printing ArrayList Elements in Ascending :: " );
+    	System.out.print( "Printing LinkedList Elements in Ascending :: " );
     	Iterator itr = arrLinkedList.iterator();
     	while( itr.hasNext() )
     		System.out.print( itr.next() + " " );
     	
-    	System.out.print( "\nPrinting ArrayList Elements in Descending :: " );
+    	System.out.print( "\nPrinting LinkedList Elements in Descending :: " );
     	Iterator itrDesc = arrLinkedList.descendingIterator();
     	while( itrDesc.hasNext() )
     		System.out.print( itrDesc.next() + " " );
@@ -56,7 +56,7 @@ public class Main {
     	
     	System.out.print( "\nRemoving element 50, " + arrLinkedList.remove( Integer.valueOf( 50 ) ) + " and the remaining list is -> " + arrLinkedList );
     	
-    	// ArrayList to Array of Wrapper class conversion
+    	// LinkedList to Array of Wrapper class conversion
     	Integer[] array = new Integer[ arrLinkedList.size() ];
     	array = arrLinkedList.toArray( array );
     	System.out.println( "\nArray conversion -> " + Arrays.toString( array ) );
@@ -71,7 +71,7 @@ public class Main {
     	System.out.println( "Min value in array list : " + Collections.min( arrLinkedList ) );
     	
     	// Creating sub list of main list
-    	List<Integer> sub_List = new ArrayList<Integer>();
+    	List<Integer> sub_List = new LinkedList<Integer>();
     	sub_List = arrLinkedList.subList( 1, arrLinkedList.size() );
     	
     	System.out.println( "Sub-List of main list is -> " + sub_List );
