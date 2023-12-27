@@ -15,4 +15,4 @@
 * Interfaces and its implementations ie., classes.
 * Algorithm
 
-![alt text](https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.javatpoint.com%2Fimages%2Fjava-collection-hierarchy.png&tbnid=UiFJkBkuwIvDFM&vet=12ahUKEwjt7LvH9q6DAxVahmMGHZaYAZAQMygAegQIARBZ..i&imgrefurl=https%3A%2F%2Fwww.javatpoint.com%2Fcollections-in-java&docid=83HpUP7oKu3PJM&w=854&h=715&q=collection%20framework%20in%20java&ved=2ahUKEwjt7LvH9q6DAxVahmMGHZaYAZAQMygAegQIARBZ)
+![ frameworks explanation image ](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200811210521/Collection-Framework-1.png)
