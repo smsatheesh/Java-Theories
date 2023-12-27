@@ -16,3 +16,5 @@
 * Algorithm
 
 ![ frameworks explanation image ](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200811210521/Collection-Framework-1.png)
+
+### Contributed by [Sm Satheesh](https//github.com/smsatheesh)
